@@ -1,39 +1,107 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kevin\\source\\repos\\WebApiSkeleton\\WebApiSkeleton\\WebApiSkeleton.csproj": {}
+    "/mnt/c/Users/kevin/source/repos/WebApiSkeleton/WebApiSkeleton/WebApiSkeleton.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kevin\\source\\repos\\WebApiSkeleton\\WebApiSkeleton\\WebApiSkeleton.csproj": {
+    "/mnt/c/Users/kevin/source/repos/WebApiSkeleton/WebApiSkeleton.Test/WebApiSkeleton.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kevin\\source\\repos\\WebApiSkeleton\\WebApiSkeleton\\WebApiSkeleton.csproj",
-        "projectName": "WebApiSkeleton",
-        "projectPath": "C:\\Users\\kevin\\source\\repos\\WebApiSkeleton\\WebApiSkeleton\\WebApiSkeleton.csproj",
-        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kevin\\source\\repos\\WebApiSkeleton\\WebApiSkeleton\\obj\\",
+        "projectUniqueName": "/mnt/c/Users/kevin/source/repos/WebApiSkeleton/WebApiSkeleton.Test/WebApiSkeleton.Test.csproj",
+        "projectName": "WebApiSkeleton.Test",
+        "projectPath": "/mnt/c/Users/kevin/source/repos/WebApiSkeleton/WebApiSkeleton.Test/WebApiSkeleton.Test.csproj",
+        "packagesPath": "/home/kpale/.nuget/packages/",
+        "outputPath": "/mnt/c/Users/kevin/source/repos/WebApiSkeleton/WebApiSkeleton.Test/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/kpale/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/mnt/c/Users/kevin/source/repos/WebApiSkeleton/WebApiSkeleton/WebApiSkeleton.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/c/Users/kevin/source/repos/WebApiSkeleton/WebApiSkeleton/WebApiSkeleton.csproj",
+        "projectName": "WebApiSkeleton",
+        "projectPath": "/mnt/c/Users/kevin/source/repos/WebApiSkeleton/WebApiSkeleton/WebApiSkeleton.csproj",
+        "packagesPath": "/home/kpale/.nuget/packages/",
+        "outputPath": "/mnt/c/Users/kevin/source/repos/WebApiSkeleton/WebApiSkeleton/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kpale/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\kevin\\source\\repos\\WebApiSkeleton\\WebApiSkeleton.Test\\WebApiSkeleton.Test.csproj": {
-                "projectPath": "C:\\Users\\kevin\\source\\repos\\WebApiSkeleton\\WebApiSkeleton.Test\\WebApiSkeleton.Test.csproj"
+              "/mnt/c/Users/kevin/source/repos/WebApiSkeleton/WebApiSkeleton.Test/WebApiSkeleton.Test.csproj": {
+                "projectPath": "/mnt/c/Users/kevin/source/repos/WebApiSkeleton/WebApiSkeleton.Test/WebApiSkeleton.Test.csproj"
               }
             }
           }
@@ -48,6 +116,18 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -71,7 +151,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
         }
       }
     }
