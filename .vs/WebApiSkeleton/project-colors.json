@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ac229d1c-714a-4c1c-91b8-9c6415dad8cf": {
+      "ProjectGuid": "ac229d1c-714a-4c1c-91b8-9c6415dad8cf",
+      "DisplayName": "WebApiSkeleton",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
